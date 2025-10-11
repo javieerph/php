@@ -2,12 +2,14 @@
 // tablas de multiplicar
 
 $tabla = 5;
+$result = 0;
 
 echo "La tabla del " . $tabla . "<br><br>";
 
 for ($i = 1; $i <= 9; $i++)
 {
-	echo $tabla . " x " . $i . " = " . $tabla * $i . "<br>";
+	$result = $tabla * $i;
+	echo $tabla . " x " . $i . " = " . $result . "<br>";
 }
 
 ?>
